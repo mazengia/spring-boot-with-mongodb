@@ -1,0 +1,12 @@
+spring:
+  data:
+   mongodb:
+    uri: mongodb://localhost:27017/dbOne
+    username:
+    password:
+  jpa:
+    properties:
+      hibernate:
+        ogm:
+          datastore:
+            create_database: true
